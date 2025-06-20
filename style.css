@@ -55,11 +55,15 @@ h2 {
   color: #ffffff;
 }
 .trophies{
-    border: 1px solid none;
-    border-radius: 5px;
-    background-color: rgb(218, 202, 174);
-    width: 7rem;
-    padding: 5px;
+     text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 70px;
+  margin-top: 8rem;
+  background-image: url("./images/heading-background-url.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 h3 {
     color: white;
