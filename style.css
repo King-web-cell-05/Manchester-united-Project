@@ -1,0 +1,70 @@
+body {
+  background-color: #000a1f;
+}
+h1 {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 70px;
+  margin-top: 25px;
+  background-image: url("./images/heading-background-url.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container img {
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 2px solid rgba(255, 255, 255, 0.68);
+  transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+  transform: scale(1.1);
+  box-shadow: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 70px;
+  margin-top: 8rem;
+  background-image: url("./images/heading-background-url.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.history p {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.trophies{
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: rgb(218, 202, 174);
+    width: 7rem;
+    padding: 5px;
+}
+h3 {
+    color: white;
+}
+
+.trophies i {
+    color: rgb(170, 147, 16);
+}
